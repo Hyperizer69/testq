@@ -1,0 +1,7 @@
+ro.display.series=Samsung M32 5G
+ro.product.board=k6853v1_64_titan
+ro.board.platform=mt6768
+sys.usb.controller=a600000.dwc3
+ro.boot.dynamic_partitions=true
+#fbe.metadata.wrappedkey=true
+ro.boot.boot_devices=bootdevice,soc/11230000.mmc,11230000.mmc,soc/11270000.ufshci,11270000.ufshci
