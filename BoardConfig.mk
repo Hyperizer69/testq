@@ -57,7 +57,7 @@ TARGET_BOARD_PLATFORM_GPU := mali-g52
 TARGET_PREBUILT_KERNEL := device/samsung/m32/prebuilt/Image.gz
 TARGET_PREBUILT_DTB := device/samsung/m32/prebuilt/dtb
 BOARD_PREBUILT_DTBOIMAGE := device/samsung/m32/prebuilt/recoverydtbo
-#BOARD_INCLUDE_DTB_IN_BOOTIMG := true
+BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_INCLUDE_RECOVERY_DTBO := true
 TARGET_KERNEL_ARCH := arm64
 
@@ -94,7 +94,7 @@ BOARD_SAMSUNG_DYNAMIC_PARTITIONS_SIZE := 7643771248
 BOARD_SAMSUNG_DYNAMIC_PARTITIONS_PARTITION_LIST := system vendor product odm
 
 # System as root
-BOARD_ROOT_EXTRA_FOLDERS := cache carrier data_mirror efs keyrefuge linkerconfig metadata omr optics prism spu
+BOARD_ROOT_EXTRA_FOLDERS := cache carrier data_mirror efs keyrefuge linkerconfig omr optics prism spu
 BOARD_SUPPRESS_SECURE_ERASE := true
 
 # Workaround for error copying vendor files to recovery ramdisk
@@ -119,7 +119,7 @@ PLATFORM_VERSION := 11
 TW_INCLUDE_CRYPTO := false
 TW_INCLUDE_CRYPTO_FBE := false
 TW_INCLUDE_FBE_METADATA_DECRYPT := false
-BOARD_USES_METADATA_PARTITION := true
+BOARD_USES_METADATA_PARTITION := false
 
 # TWRP specific build flags
 TW_DEVICE_VERSION := 4_afaneh92
