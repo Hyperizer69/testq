@@ -55,7 +55,7 @@ TARGET_BOARD_PLATFORM_GPU := mali-g52
 
 # Kernel
 TARGET_PREBUILT_KERNEL := device/samsung/m32/prebuilt/Image.gz
-TARGET_PREBUILT_DTB := device/samsung/m32/prebuilt/dtb
+TARGET_PREBUILT_DTB := device/samsung/m32/prebuilt/dtb.img
 BOARD_PREBUILT_DTBOIMAGE := device/samsung/m32/prebuilt/recoverydtbo
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_INCLUDE_RECOVERY_DTBO := true
