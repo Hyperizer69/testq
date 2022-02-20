@@ -16,7 +16,7 @@
 
 # Bootloader
 BOARD_VENDOR := samsung
-TARGET_SOC := k6853v1_64_titan
+TARGET_SOC := k69v1_64_titan_marmot
 TARGET_BOOTLOADER_BOARD_NAME := mt6768
 TARGET_NO_BOOTLOADER := true
 TARGET_NO_RADIOIMAGE := true
@@ -24,7 +24,7 @@ TARGET_USES_UEFI := true
 
 # Architecture
 TARGET_ARCH := arm64
-TARGET_ARCH_VARIANT := armv8-2a
+TARGET_ARCH_VARIANT := armv8-a
 TARGET_CPU_ABI := arm64-v8a
 TARGET_CPU_ABI2 :=
 TARGET_CPU_VARIANT := generic
