@@ -1,5 +1,5 @@
 ro.display.series=Samsung M32 
-ro.product.board=k6853v1_64_titan
+ro.product.board=k69v1_64_titan_marmot
 ro.board.platform=mt6768
 sys.usb.controller=a600000.dwc3
 ro.boot.dynamic_partitions=true
